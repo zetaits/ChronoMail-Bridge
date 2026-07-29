@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B0FF67E6-3CA8-47D4-81A8-3C147E46B632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChronoMailBridge.Core", "src\ChronoMailBridge.Core\ChronoMailBridge.Core.csproj", "{9F797C8A-5B6E-4011-B0D4-D44E5A306226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChronoMailBridge.Infrastructure", "src\ChronoMailBridge.Infrastructure\ChronoMailBridge.Infrastructure.csproj", "{84FAF9F6-AAFA-4957-88BA-E40945C0837E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChronoMailBridge.App", "src\ChronoMailBridge.App\ChronoMailBridge.App.csproj", "{7C0C0C42-AC02-4277-A691-CE8A3CE602CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{221AD373-69B4-48DB-B4F0-4C10343AE5C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChronoMailBridge.Tests", "tests\ChronoMailBridge.Tests\ChronoMailBridge.Tests.csproj", "{AA42EDB2-BE2C-4719-B500-F5DBD5783EAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F797C8A-5B6E-4011-B0D4-D44E5A306226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F797C8A-5B6E-4011-B0D4-D44E5A306226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F797C8A-5B6E-4011-B0D4-D44E5A306226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F797C8A-5B6E-4011-B0D4-D44E5A306226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84FAF9F6-AAFA-4957-88BA-E40945C0837E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84FAF9F6-AAFA-4957-88BA-E40945C0837E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84FAF9F6-AAFA-4957-88BA-E40945C0837E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84FAF9F6-AAFA-4957-88BA-E40945C0837E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0C0C42-AC02-4277-A691-CE8A3CE602CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0C0C42-AC02-4277-A691-CE8A3CE602CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0C0C42-AC02-4277-A691-CE8A3CE602CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0C0C42-AC02-4277-A691-CE8A3CE602CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA42EDB2-BE2C-4719-B500-F5DBD5783EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA42EDB2-BE2C-4719-B500-F5DBD5783EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA42EDB2-BE2C-4719-B500-F5DBD5783EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA42EDB2-BE2C-4719-B500-F5DBD5783EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F797C8A-5B6E-4011-B0D4-D44E5A306226} = {B0FF67E6-3CA8-47D4-81A8-3C147E46B632}
+		{84FAF9F6-AAFA-4957-88BA-E40945C0837E} = {B0FF67E6-3CA8-47D4-81A8-3C147E46B632}
+		{7C0C0C42-AC02-4277-A691-CE8A3CE602CE} = {B0FF67E6-3CA8-47D4-81A8-3C147E46B632}
+		{AA42EDB2-BE2C-4719-B500-F5DBD5783EAB} = {221AD373-69B4-48DB-B4F0-4C10343AE5C1}
+	EndGlobalSection
+EndGlobal
