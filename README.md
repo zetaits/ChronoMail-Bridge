@@ -4,6 +4,8 @@ A WPF application for archiving historical email from Turbify/Yahoo Small Busine
 
 > `.eml` files contain business information and are not encrypted by this MVP. Choose a BitLocker-protected NTFS drive with sufficient free space.
 
+![ChronoMail Bridge desktop application running in simulation mode](docs/images/chronomail-bridge.png)
+
 ## MVP status
 
 Included features:
